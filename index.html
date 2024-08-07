@@ -4,10 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calender</title>
-    <link  rel="stylesheet" src="style.css">
+    <link  rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    
+    <header>
+        <nav id="navbar">
+             <a href="#contact">Contact</a>
+            <h1>Calender</h1>
+        </nav>
+        <nav class="side-navbar">
+            <ul>
+              <li><a href="#home" ><i class="fas fa-home"></i>Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#settings" id="settings-link"><i class="fas fa-cog"></i> Settings</a></li>
+            </ul>
+          </nav>
+    </header>
+    <main>
+        <div id="calender">
+                <div class="header">
+                  <button id="prev">&lt;</button>
+                  <h2 id="month-year"> August 2024</h2>
+                  <button id="next">&gt;</button>
+                </div>
+                <div class="weekdays">
+                  <div>Sun</div>
+                  <div>Mon</div>
+                  <div>Tue</div>
+                  <div>Wed</div>
+                  <div>Thu</div>
+                  <div>Fri</div>
+                  <div>Sat</div>
+                </div>
+                <div class="days" id="days"></div>
+
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
 
 
 
